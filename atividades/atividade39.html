@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            var palavras = ['igor,', 'me', 'contrata', ':)']
+            function maiuscula(lista) {
+                let resultado = []
+                for (let string of lista) {
+                    resultado.push(string.toUpperCase()) //deixa maiúscula
+                }
+                return resultado
+            } 
+            var resultado = maiuscula(palavras)
+            alert(resultado)
+        </script>
+    </body>
+</html>
